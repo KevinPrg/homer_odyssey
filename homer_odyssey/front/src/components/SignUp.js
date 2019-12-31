@@ -7,7 +7,6 @@ export class SignUp extends Component {
     this.state = {
       email: "",
       password: "",
-      passwordBis: "",
       name: "",
       lastname: ""
     };
@@ -43,11 +42,7 @@ export class SignUp extends Component {
           </div>
           <div className="contain">
             repeat password:
-            <input
-              type="password"
-              name="passwordBis"
-              onChange={this.updateEmailField}
-            />
+            <input type="password" name="passwordBis" />
           </div>
           <div className="contain">
             name:
